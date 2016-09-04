@@ -1,0 +1,107 @@
+@media print{
+
+html {
+	background-color: white;
+}
+
+.header {
+	color:black;
+	text-align: center;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 40px;  
+}
+
+#mainpagehead {
+	font-family: Arial, "MS Trebuchet", sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	word-spacing: normal;
+}
+
+#relative {
+	visibility: hidden;
+}
+
+.mainpages > div {
+	display: inline-block;
+	width: 20%;
+}
+
+#lightbutton {
+	display: none;
+	visibility: hidden;
+}
+
+#darkbutton {
+	display: none;
+}
+
+div.content {
+	color: black;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 15px;
+	position:relative;
+	height: auto;
+	margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+p.pcontent {
+	text-align: left;
+	font-size: 14px;
+	word-spacing: normal;
+	text-decoration: none;
+	text-shadow: none;
+}
+
+.textcontent {
+	text-align: center;
+}
+
+img.standardimages {
+	display: block;
+	margin: auto;
+	position: relative;
+	height: auto;
+	width: 80%;
+}
+
+.sitemap {
+	word-spacing: 15px;
+}
+
+.sitemap ul {
+	width: 20%;
+}
+
+.sitemap ul li{
+	font-size: 13px;
+}
+
+.sitemap li{
+	display: inline;
+	width: 20%;
+}
+
+#clock {
+	color: black;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 12px;
+	position:absolute; 
+	right: 0px;
+	width:auto; 
+	padding:5px; 
+	bottom:0px;	
+}
+
+#mainpages {
+	color: black;
+	padding-top: 75px;
+	text-align: center;
+	word-spacing: 20px;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+}

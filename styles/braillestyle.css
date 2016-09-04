@@ -1,0 +1,18 @@
+@media braille {
+	
+	.navDiv {
+		display: block;
+	}
+	#mainNav {
+		display: block;
+	}
+	
+	.mainpages > div {
+		display: inline-block;
+	}
+	
+	img.standardimages {
+		display: block;
+	}
+
+}

@@ -1,0 +1,107 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+		<title>Music Electric Inc. - guitars</title>
+		
+		<script type="text/javascript" src="../scripts/script.js"> </script>
+		<script type="text/javascript" src="../scripts/clockscript.js"> </script>
+		<script type="text/javascript" src="../scripts/guitarslideshowscript.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="../styles/navstyle.css" />
+		<link rel="stylesheet" type="text/css" title="dark" href="../styles/mainstyle.css" />
+		<link rel="alt stylesheet" type="text/css" title="light" href="../styles/altstyle.css" />
+		<link rel="alt stylesheet" type="text/css" href="../styles/altnavstyle.css" />
+		<link rel="stylesheet" type="text/css" href="../styles/braillestyle.css" media="braille" />
+		<link rel="stylesheet" type="text/css" href="../styles/printstyle.css" media="print" />		
+		<link rel="stylesheet" type="text/css" href="../styles/printnavstyle.css" media="print" />
+
+	</head>
+	<body onload="startTime(); checkStyle()">
+
+	<h1 class="header"><a href="../index.html" id="header">Music Electric Inc.</a></h1>
+
+	<div class="navDiv">
+		<ul id="mainNav">
+			<li><a href="../index.html">home</a></li>
+			
+			<li>
+				<a href="mainguitars.html">guitars</a>
+				<ul>
+					<li><a href="acoustics.html">acoustics</a></li>
+					<li><a href="electrics.html">electrics</a></li>
+					<li><a href="basses.html">basses</a></li>
+					<li><a href="other.html">other</a></li>
+				</ul>
+			</li>
+			
+			<li>
+				<a href="../amps/mainamps.html">amps</a>
+				<ul>
+					<li><a href="../amps/acoustic.html">acoustic</a></li>
+					<li><a href="../amps/solidstate.html">solid-state electric</a></li>
+					<li><a href="../amps/tube.html">tube electric</a></li>
+					<li><a href="../amps/bass.html">bass</a></li>
+				</ul>
+			</li>
+			
+			<li>
+				<a href="../accessories/mainacc.html">accessories</a>
+				<ul>
+					<li><a href="../accessories/cables.html">cables</a></li>
+					<li><a href="../accessories/parts.html">parts</a></li>
+					<li><a href="../accessories/stands.html">stands</a></li>
+					<li><a href="../accessories/strings.html">strings</a></li>
+				</ul>
+			</li>
+			
+			<li>
+				<a href="../information/maininfo.html">information</a>
+				<ul>
+					<li><a href="../information/about.html">about</a></li>
+					<li><a href="../information/contact.html">contact</a></li>
+					<li><a href="../information/mailinglist.html">mailing list</a></li>
+					<li><a href="../information/sitemap.html">sitemap</a></li>
+				</ul>
+			</li>
+			
+		</ul>
+	</div>
+	
+	<div class="content" id="mainpages">
+		<div id="mainpagehead">GUITARS</div><br />
+		
+		<div class="mainpages">
+			<div><a href="acoustics.html">acoustics</a></div>
+			<div>|</div>
+			<div><a href="electrics.html">electrics</a></div><br />
+			<div><a href="basses.html">basses</a></div>
+			<div>|</div>
+			<div><a href="other.html">other</a></div>
+		</div><br />
+	
+	<!--SLIDESHOW-->
+	<div id="relative">
+			<span onclick="slideFunction(0)" class="left">Previous</span>
+			<span onclick="slideFunction(2)" class="center">Play</span>
+			<span onclick="slideFunction(1)" class="right">Next</span>
+		</div><br />
+		<div class="slideshow">
+			<img id="mainslide" class="fadeIn" src="../images/guitarimages/guitar6.jpg" alt="Guitar"/>
+			<span onclick="slideFunction(0)" class="fade"><img class="arrowleft" src="../images/arrowleft.png" alt="Left arrow"/></span>
+			<span onclick="slideFunction(1)" class="fade"><img class="arrowright" src="../images/arrowright.png" alt="Right arrow"/></span>
+			<span onclick="slideFunction(2)" class="fade"><img class="playshow" src="../images/play.png" alt="play button" /> </span>
+		</div>
+	</div>	
+
+	<div id="clock"> </div>
+	
+	<div id="sitemap"><a href="../information/sitemap.html">sitemap</a></div>
+
+	</body>
+</html>
